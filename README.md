@@ -1,58 +1,79 @@
-EEG-based Epileptic Seizure Classification Using Machine Learning
+EEG-Based Epileptic Seizure Classification Using Machine Learning
+A machine learning project to classify epileptic seizure events from EEG signals. This repository includes all necessary code, a sample EEG dataset, and interactive Jupyter notebooks to help users reproduce results or adapt the workflow for their own data.
 
+🚀 Project Overview
+This project applies supervised machine learning algorithms to classify EEG data segments as seizure or non-seizure. The main goal is to automate and support epilepsy diagnosis by leveraging feature extraction, ensemble classifiers, and experimental visualization.
 
-This repository contains the code, scripts, and documentation for a system that classifies EEG signals as seizure or non-seizure using advanced machine learning techniques. The goal is to support epilepsy diagnosis and research by automating the classification of EEG data segments.
+🗂️ Repository Structure
+DATABASE/
 
-🧠 Overview
-Classification Task: Uses ML algorithms to label EEG segments as seizure or non-seizure.
+Contains EEG data in Excel format (Epileptic Seizure Recognition.xlsx or .csv).
 
-Feature Extraction: Statistical, temporal, and frequency-based features are extracted from the signals.
+PHOTOS/
 
-Models: Implements and compares algorithms including Logistic Regression, SVM, Random Forest, and Gradient Boosting.
+Example plots and visualizations generated during analysis.
 
-Evaluation: Reports accuracy, precision, recall, and other metrics to assess performance.
+epileptic seizure classification notebook.ipynb
 
-Interactive UI: Streamlit front-end for users to upload EEG data and view results.
+Jupyter notebook with the full workflow: preprocessing, feature extraction, classification, and visualization.
 
-🚀 Features
-Data preprocessing and signal filtering.
+⚡ Main Features
+Data preprocessing and EEG signal filtering.
 
-Feature extraction from EEG recordings.
+Extraction of statistical and frequency-based features.
 
-Multiple ML classifiers for flexible model selection.
+Multiple ML classifiers: Random Forest, SVM, Gradient Boosting, Logistic Regression.
 
-Visual data exploration and performance reporting.
+Performance metrics reporting (accuracy, precision, recall, etc.).
 
-Simple app interface for demonstration.
+Interactive notebook for visualization and experimentation.
 
-💡 Technologies Used
-Python (NumPy, Pandas, SciPy, Scikit-learn)
+Repository includes both the dataset and sample notebooks for hands-on use.
 
-Streamlit (for user interface)
+📊 Dataset
+Format: Microsoft Excel/CSV.
 
-MNE-Python (EEG signal handling)
+Location: /DATABASE/Epileptic Seizure Recognition.xlsx
 
-Matplotlib/Seaborn (visualization)
+The dataset is labeled for supervised ML classification (seizure vs. non-seizure).
 
-How to Use
+Users can modify or replace the dataset for their own research.
+
+📔 Jupyter Notebook
+File: epileptic seizure classification notebook.ipynb
+
+Step-by-step guide for loading data, extracting features, training classifiers, and evaluating results.
+
+Easy to use in Jupyter, Google Colab, or VSCode.
+
+🛠️ Technologies Used
+Python (NumPy, Pandas, SciPy, scikit-learn)
+
+Matplotlib, Seaborn (visualizations)
+
+Jupyter Notebook
+
+🚦 How to Use
 Clone the repository:
 
 text
-git clone https://github.com/NaumanSama742/Epileptic-Seizure-Classification-from-EEG-Signals.git
+git clone https://github.com/yourusername/eeg-seizure-classification.git
 Install dependencies:
 
 text
 pip install -r requirements.txt
-Prepare EEG data: Format your data as described in the docs.
+Open the notebook:
 
-Run classification: Launch the Streamlit app or use the provided notebooks/scripts for batch processing.
+Launch Jupyter and open epileptic seizure classification notebook.ipynb.
 
-text
-streamlit run app.py
-Limitations
-This project does not predict future seizures; it classifies provided EEG data segments as seizure or non-seizure.
+Explore and modify:
 
-Intended as a research and educational tool, not a commercial or clinical device.
+Load the dataset, run the full workflow, and tweak models or features as needed.
 
-License
+📌 Limitations
+This project performs classification only (not prediction/forecasting).
+
+For research/educational purposes; not certified for clinical deployment.
+
+📄 License
 MIT License
