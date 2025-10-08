@@ -38,7 +38,7 @@ How to Use
 Clone the repository:
 
 text
-git clone https://github.com/yourusername/eeg-seizure-classification.git
+git clone https://github.com/NaumanSama742/Epileptic-Seizure-Classification-from-EEG-Signals.git
 Install dependencies:
 
 text
