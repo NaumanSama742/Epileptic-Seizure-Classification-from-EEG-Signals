@@ -1,4 +1,6 @@
 EEG-based Epileptic Seizure Classification Using Machine Learning
+
+
 This repository contains the code, scripts, and documentation for a system that classifies EEG signals as seizure or non-seizure using advanced machine learning techniques. The goal is to support epilepsy diagnosis and research by automating the classification of EEG data segments.
 
 🧠 Overview
